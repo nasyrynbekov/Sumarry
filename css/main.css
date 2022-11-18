@@ -300,6 +300,23 @@ body {
 	transition: 0.5s;
 }
 
+@media all and (max-width:767px) {
+
+	.contact-block_address p,
+	.contact-block_address a {
+		font-size: 12px;
+		text-decoration: none;
+		color: rgb(254, 251, 251);
+
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		transition: 0.5s;
+	}
+
+}
+
+
 .contact-block_address p:hover,
 .contact-block_address a:hover {
 	font-size: 23px;
