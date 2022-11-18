@@ -267,7 +267,8 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	border: solid 2px white;
+	border-style: solid;
+	border-image: linear-gradient(to right, rgb(0, 103, 108), rgb(87, 87, 0)) 1;
 	gap: 10px;
 
 }
@@ -282,7 +283,7 @@ body {
 }
 
 .contact-block_address {
-	display: flex;
+	width: 40%;
 	gap: 10px;
 	justify-content: center;
 }
@@ -291,7 +292,8 @@ body {
 .contact-block_address a {
 	font-size: 20px;
 	text-decoration: none;
-	color: white;
+	color: rgb(254, 251, 251);
+
 	display: flex;
 	align-items: center;
 	gap: 10px;
